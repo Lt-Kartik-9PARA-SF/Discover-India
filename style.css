@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+#topImg{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.carousel{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-right:1.9rem;
+    margin-left:.5rem;
+    margin-top: .5rem;
+   
+}
+.states{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    
+}
+.state-list{
+    height: 40vh;
+    border-radius: 5px;
+}
+.state-list:hover{
+    cursor: pointer;
+}
+.state-about{
+    color: beige;
+    text-align: center;
+}
+.caption {
+    text-align: center;
+    
+}
+.caption a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    width: 100%;
+    z-index: 1;
+}
+#uttrakhand{
+    background-image: url('rishikesh.jpg');
+    border-radius: 5px;
+    background-size: cover;
+}
+#himachal{
+    background-image: url('himachal.jpg');
+    background-size: cover;
+}
+#arunachal{
+    background-image: url('arunachal.jpg');
+    background-size: cover;
+}
+.coming-soon{
+    background-image: url('coming-soon-dark.jpg');
+    background-position: center;
+    background-size:cover;
+    color: aliceblue;
+    
+}
+@media screen and (max-width: 600px) {
+   .states{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+  
+  }
