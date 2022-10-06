@@ -13,12 +13,11 @@ img{
 }
 .carousel{
     width: 100vw;
-    height: 80vh;
+    
     display: flex;
     justify-content: center;
     overflow: hidden;
-    margin-right:1.9rem;
-    margin-left:.5rem;
+   
     margin-top: .5rem;
    
 }
